@@ -1,0 +1,4 @@
+.. replace_local_images.txt: Replacements for images.
+
+.. |plugin_icon| image:: ./images/Qgis2threejs24.png
+.. |crs_icon| image:: ./images/tutorial/crsicon.png

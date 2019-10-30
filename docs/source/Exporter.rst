@@ -109,7 +109,7 @@ Scene Settings
 Scene settings dialog controls some basic configuration settings for current scene.
 Click on ``Scene - Scene Settings...`` menu entry to open the dialog.
 
-|scene_settings_dialog|
+.. image:: ./images/dialogs/scene_settings.png
 
 * World Coordinates
 
@@ -208,6 +208,8 @@ Decorations
 DEM Layer Settings
 ------------------
 
+.. image:: ./images/dialogs/dem_layer.png
+
 Geometry
 ^^^^^^^^
 
@@ -216,11 +218,11 @@ Geometry
    Select a DEM resolution from several levels. This resolution is used to
    resample the DEM, but is not for texture.
 
-* Surroundings
+* Surrounding blocks
 
    This option enlarges output DEM by placing DEM blocks around the main block of the map canvas extent.
    Size can be selected from odd numbers in the range of 3 to 9. If you select 3, total 9 (=3x3) blocks
-   (a center block and 8 surrounding blocks) are output. Roughening can be selected from powers of 2 in
+   (a center block and 8 surrounding blocks) are output. Roughness can be selected from powers of 2 in
    the range of 1 to 64. If you select 2, grid point spacing of each surrounding block is doubled. It
    means that the number of grid points in the same area becomes 1/4.
 
@@ -304,6 +306,8 @@ Other Options
 Vector Layer Settings
 ---------------------
 
+.. image:: ./images/dialogs/vector_layer.png
+
 Vector layers are grouped into three types: Point, Line and Polygon.
 Common settings for all types:
 
@@ -315,7 +319,7 @@ Common settings for all types:
 
          Altitude is distance above zero-level.
 
-      * Relative to a DEM layer
+      * Relative to (a DEM layer)
 
          Altitude is distance above surface of selected DEM.
 
@@ -404,7 +408,7 @@ See :ref:`object-types-polygon-layer` section in :doc:`ObjectTypes` page for eac
 Export to Web Dialog
 --------------------
 
-|export_to_web_dialog|
+.. image:: ./images/dialogs/export_to_web.png
 
 * Output directory and HTML Filename
 
@@ -455,7 +459,7 @@ Export to Web Dialog
 Exporter Settings
 -----------------
 
-|plugin_settings_dialog|
+.. image:: ./images/dialogs/plugin_settings.png
 
 * Web browser path
 

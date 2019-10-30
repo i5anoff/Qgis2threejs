@@ -7,7 +7,8 @@ Examples
 
 * **Mt. Fuji**: Shaded relief map made with SRTM3 data
 
-  |image - Mt. Fuji|
+.. |image - Mt. Fuji| image:: ./images/examples/mt_fuji.png
+   :target: https://qgis2threejs-examples-24.netlify.com/mt_fuji.html
 
   Source: U.S. National Aeronautics and Space Administration (NASA)
   and National Geospatial-Intelligence Agency (NGA). `SRTM elevation
@@ -17,7 +18,8 @@ Examples
 
 * **Forest Basins**: Polygon overlay and grid
 
-  |image - Forest Basins|
+.. |image - Forest Basins| image:: ./images/examples/forest_basins.png
+   :target: https://qgis2threejs-examples-24.netlify.com/forest_basins.html
 
   Sources: Geospatial Information Authority of Japan. `5m DEM of Fundamental
   Geospatial Data <https://www.gsi.go.jp/kiban/index.html>`__ and `GSI
@@ -31,16 +33,21 @@ Examples
 * **Mt. Fuji (Large Area)**: With surroundings option. Shaded relief
   map made with SRTM data.
 
-  |image - Mt. Fuji (Large Area)|
+.. |image - Mt. Fuji (Large Area)| image:: ./images/examples/mt_fujiL.jpg
+   :target: https://minorua.github.io/qgis/plugins/qgis2threejs/examples/threejs/mt_fujiL.html
 
 * **Seto Inland Sea**: Custom plane template. Shaded relief map made
   with SRTM data.
 
-  |image - Seto Inland Sea|
+.. |image - Seto Inland Sea| image:: ./images/examples/seto_inland_sea.jpg
+   :target: https://minorua.github.io/qgis/plugins/qgis2threejs/examples/threejs/seto_inland_sea.html
 
 * **Mt. Aso**: Polygon overlay
 
-  |image - Mt. Aso|
+.. |image - Mt. Aso| image:: ./images/examples/mt_aso.png
+   :target: https://minorua.github.io/qgis/plugins/qgis2threejs/examples/aso-zan/aso-zan.html
+.. |(CC BY-ND 2.1 JP)| image:: ./images/examples/ccbynd_s.png
+   :target: http://creativecommons.org/licenses/by-nd/2.1/jp/
 
   Sources: Geospatial Information Authority of Japan. `GSI
   Tiles <https://maps.gsi.go.jp/development/ichiran.html>`__ (standard
