@@ -459,7 +459,7 @@ direction.
 
    <table><tr><td width="256">
 
-.. image:: ./images/line/Cone.jpg
+.. image:: ./images/line/ConeL.jpg
 
 .. raw:: html
 

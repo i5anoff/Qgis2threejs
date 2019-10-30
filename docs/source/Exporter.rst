@@ -338,7 +338,7 @@ Common settings for all types:
          Uses z coordinate or m value of each vertex. the evaluated value is added to it.
 
          These options can be chosen when the layer geometries have z coordinates or m values.
-         Cannot be chosen when the object type is Extruded or Overlay (polygon).
+         Cannot be chosen when the object type is Extruded or Overlay.
 
 * Style
 
@@ -388,7 +388,7 @@ Line
 Line layers in the project are listed as the child items. The following
 object types are available:
 
-    Line, Pipe, Cone, Box, Profile
+    Line, Pipe, Cone, Box, Wall
 
 See :ref:`object-types-line-layer` section in :doc:`ObjectTypes` page for each object type specific settings.
 
@@ -398,7 +398,7 @@ Polygon
 Polygon layers in the project are listed as the child items. The
 following object types are available:
 
-    Extruded, Overlay, Triangular Mesh
+    Polygon, Extruded, Overlay
 
 See :ref:`object-types-polygon-layer` section in :doc:`ObjectTypes` page for each object type specific settings.
 
@@ -444,8 +444,8 @@ Export to Web Dialog
 
        This is a template for mobile devices, which has mobile friendly GUI,
        device orientation controls and AR feature. In order to use the AR feature
-       (Camera and GPS), you need to upload exported files to a web server
-       supporting SSL.
+       (Camera and GPS), you need to upload exported files to a web server that
+       supports SSL.
 
        Option
 
@@ -456,6 +456,18 @@ Export to Web Dialog
            grid magnetic angle (angle between grid North and magnetic North) and map rotation.
            Used to determine device camera direction.
 
+* General Settings
+
+    * Preserve the Current Viewpoint
+
+        If checked, the current viewpoint of the preview is used as initial viewpoint.
+
+    * Enable the Viewer to Run Locally
+
+        If checked, export all scene data to a .js file to avoid web browser's same origin policy
+        security restrictions. You can view the exported scene without uploading it to a web
+        server, although the total file size will increase and it will take longer to load.
+
 Exporter Settings
 -----------------
 
@@ -463,8 +475,8 @@ Exporter Settings
 
 * Web browser path
 
-   If you want to open web page exported from the exporter with a web browser
-   other than the default browser, enter the web browser path in this input box.
+   If you want to run the exported viewer with a web browser other than the default browser,
+   enter path to the web browser in this input box.
    See `Browser Support <https://github.com/minorua/Qgis2threejs/wiki/Browser-Support>`__ wiki page.
 
 
