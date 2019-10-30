@@ -3,8 +3,7 @@ Examples
 
 * **Mt. Fuji**: Shaded relief map made with SRTM3 data
 
-.. image:: ./images/examples/mt_fuji.png
-   :target: https://qgis2threejs-examples-24.netlify.com/mt_fuji.html
+|Mt_Fuji|
 
 Source: U.S. National Aeronautics and Space Administration (NASA)
 and National Geospatial-Intelligence Agency (NGA). `SRTM elevation
@@ -14,8 +13,7 @@ V2.1. Filled small voids using
 
 * **Forest Basins**: Polygon overlay and grid
 
-.. image:: ./images/examples/forest_basins.png
-   :target: https://qgis2threejs-examples-24.netlify.com/forest_basins.html
+|ForestBasins|
 
 Sources: Geospatial Information Authority of Japan. `5m DEM of Fundamental
 Geospatial Data <https://www.gsi.go.jp/kiban/index.html>`__ and `GSI

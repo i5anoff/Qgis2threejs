@@ -2,3 +2,10 @@
 
 .. |plugin_icon| image:: ./images/Qgis2threejs24.png
 .. |crs_icon| image:: ./images/tutorial/crsicon.png
+
+
+.. |Mt_Fuji| image:: ./images/examples/mt_fuji.png
+   :target: https://qgis2threejs-examples-24.netlify.com/mt_fuji.html
+
+.. |ForestBasins| image:: ./images/examples/forest_basins.png
+   :target: https://qgis2threejs-examples-24.netlify.com/forest_basins.html
